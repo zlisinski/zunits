@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnDistance"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distance_label"
+                android:clickable="true"
+                android:onClick="distanceClick" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnMass"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mass_label"
+                android:clickable="true"
+                android:onClick="massClick" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnPressure"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pressure_label"
+                android:clickable="true"
+                android:onClick="pressureClick" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnSpeed"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/speed_label"
+                android:clickable="true"
+                android:onClick="speedClick" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnTemperature"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temperature_label"
+                android:clickable="true"
+                android:onClick="temperatureClick" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnVolume"
+                android:textSize="36sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volume_label"
+                android:clickable="true"
+                android:onClick="volumeClick" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="New Text"
+                    android:id="@+id/debugText"
+                    android:textSize="36sp" />
+        </TableRow>
+    </TableLayout>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />-->
+
+</RelativeLayout>

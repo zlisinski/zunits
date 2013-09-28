@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zUnits</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="distance_label">Distance</string>
+    <string name="mass_label">Mass/Weight</string>
+    <string name="pressure_label">Pressure</string>
+    <string name="speed_label">Speed/Velocity</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="volume_label">Volume</string>
+    <string name="title_activity_distance">Distance</string>
+    <string name="title_activity_mass">Mass/Weight</string>
+
+</resources>
