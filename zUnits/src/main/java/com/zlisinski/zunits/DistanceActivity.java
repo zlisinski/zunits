@@ -179,6 +179,10 @@ public class DistanceActivity extends Activity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 String value = s.toString();
 
+                // set value to "0" if it is empty
+                if (value.equals(""))
+                    value = "0";
+
                 // append a "0" if number ends in a dot
                 if (value.endsWith("."))
                     value = value + "0";
