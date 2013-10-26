@@ -12,5 +12,6 @@
     <string name="volume_label">Volume</string>
     <string name="title_activity_distance">Distance</string>
     <string name="title_activity_mass">Mass/Weight</string>
+    <string name="title_activity_volume">VolumeActivity</string>
 
 </resources>

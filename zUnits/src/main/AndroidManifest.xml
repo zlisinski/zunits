@@ -29,6 +29,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zlisinski.zunits.MainActivity" />
+
             <intent-filter>
                 <action android:name="com.zlisinski.zunits.DistanceActivity" />
             </intent-filter>
@@ -40,9 +41,18 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zlisinski.zunits.MainActivity" />
+
             <intent-filter>
                 <action android:name="com.zlisinski.zunits.MassActivity" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zlisinski.zunits.VolumeActivity"
+            android:label="@string/title_activity_volume"
+            android:parentActivityName="com.zlisinski.zunits.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zlisinski.zunits.MainActivity" />
         </activity>
     </application>
 

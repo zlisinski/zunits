@@ -66,5 +66,7 @@ public class MainActivity extends Activity {
 
     public void volumeClick(View v) {
         debugText.setText("Volume");
+        Intent i = new Intent(MainActivity.this, VolumeActivity.class);
+        startActivity(i);
     }
 }
